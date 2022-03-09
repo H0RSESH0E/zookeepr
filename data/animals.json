@@ -4,7 +4,7 @@
       "id": "0",
       "name": "Spindle",
       "species": "bear",
-      "diet": "omnivore",
+      "diet": "omnQvore",
       "personalityTraits": [
         "hungry",
         "zany",
@@ -95,6 +95,33 @@
       "id": "9",
       "name": "Tamara",
       "species": "Tiger",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Tamara",
+      "species": "TigerSSS",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tamara",
+      "species": "Xneomorph",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Tamrrrestara",
+      "species": "9999Xneomorph",
       "diet": "carnivore",
       "personalityTraits": [
         "hungry"
