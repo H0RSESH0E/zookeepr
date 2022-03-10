@@ -78,6 +78,14 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
   });
 
+  app.get('/animals', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/animals.html'));
+  });
+
+  app.get('/zookeepers', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'));
+  });
+
 app.get('/api/animals', (req, res) => {
   let results = animals;
   if (req.query) {
@@ -94,6 +102,11 @@ app.get('/api/animals/:id', (req, res) => {
     res.send(404);
   }
 });
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
 
 app.post('/api/animals', (req, res) => {
   // set id based on what the next index of the array will be
